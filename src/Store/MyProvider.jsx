@@ -16,7 +16,7 @@ function MyProvider({ children }) {
         setCurrentPage(pageName ? pageName : "home")
     }
 
-    const getPageName = () => location.pathname.match(/\w\/(\w+)/)?.[1]
+    const getPageName = () => location.pathname.match(/(\w+)/)?.[1]
     
     const changeDeviceLayout = () => {
         const tabletBreakPoint = 490
