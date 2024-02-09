@@ -8,7 +8,7 @@ import Technology from "./pages/Technology";
 
 import { getPageData } from "./Store/store"
 
-const baseName = "/dsl-space-tourism-website"
+const baseName = "/dsl-space-tourism-website.netlify.app"
 
 const router = createBrowserRouter([
   {
