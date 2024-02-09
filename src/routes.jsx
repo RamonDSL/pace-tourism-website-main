@@ -8,8 +8,6 @@ import Technology from "./pages/Technology";
 
 import { getPageData } from "./Store/store"
 
-const baseName = "/dsl-space-tourism-website.netlify.app"
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,12 +34,10 @@ const router = createBrowserRouter([
       },
       {
         path: "*",
-        element: <Navigate to="/space-tourism-website-main" />,
+        element: <Navigate to="/" />,
       },
     ],
   }
-], {
-  basename: baseName
-})
+])
 
 export default router;
