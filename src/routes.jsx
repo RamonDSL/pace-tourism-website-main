@@ -8,7 +8,7 @@ import Technology from "./pages/Technology";
 
 import { getPageData } from "./Store/store"
 
-const baseName = "/space-tourism-website-main"
+const baseName = "/DSL-space-tourism-website"
 
 const router = createBrowserRouter([
   {
