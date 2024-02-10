@@ -25,6 +25,11 @@ const GlobalStyle = createGlobalStyle`
         font-size: 62.5%;
     }
 
+    body {
+        width: 100%;
+        min-height: 100vh;
+    }
+
     main {
         display: flex;
         flex-direction: column;

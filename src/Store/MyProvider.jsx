@@ -63,7 +63,7 @@ function MyProvider({ children }) {
         if (deviceLayout !== "mobile") setMenuOpen(false)
         
         setMenuOpen(!menuOpen)
-        document.documentElement.style.overflow = menuOpen ? "hidden" : "visible" 
+        document.body.style.overflow = !menuOpen ? "" : "hidden" 
     }
 
     const changeScreenOrientation = () => {

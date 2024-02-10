@@ -8,6 +8,7 @@ function BtnMenu() {
 
   useEffect(() => {
     if (menuOpen) changeMenuState()
+    console.log(menuOpen);
   }, [deviceLayout])
   
   return (
